@@ -266,6 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('jsChallengeProgress', JSON.stringify(progressToSave));
             updateDailySummary();
             renderProgressTree();
+            renderChapters();
         } catch (e) {
             console.error('保存进度失败:', e);
         }
