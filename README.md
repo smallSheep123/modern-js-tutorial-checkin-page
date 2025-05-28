@@ -4,7 +4,7 @@
 这是一个专注于JavaScript学习者设计的网页，适配于 https://zh.javascript.info/ 学习网站。旨在帮助用户高效完成 JavaScript 学习挑战。通过动态更新学习进度、每日励志语录和树形结构展示学习路径，用户可以清晰掌握学习进展，保持学习动力。  
 
 # 使用方法  
-1. **克隆项目**：`git clone https://github.com/your-repo/javascript-learning-challenge.git`  
+1. **克隆项目**：`git clone https://github.com/smallSheep123/modern-js-tutorial-checkin-page.git`  
 启动项目：打开 index.html 文件即可在浏览器中运行。  
 2. **网页浏览**：输入 https://smallsheep123.github.io/modern-js-tutorial-checkin-page/ 网址即可在线使用，由于使用了loaclStorage本地化存储，所以可以保持之前的记录。  
 
