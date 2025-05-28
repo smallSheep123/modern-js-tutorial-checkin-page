@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 学习挑战</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="header">
+    <h1 class="title">JavaScript 学习挑战</h1>
+    <p class="daily-quote" id="dailyQuote">每日一句加载中...</p>
+    <div class="daily-summary">
+        <div class="summary-item">
+            <span>今日完成:</span>
+            <span class="count" id="todayCompleted">0</span>
+            <span>章节</span>
+        </div>
+        <div class="summary-item">
+            <span>剩余:</span>
+            <span class="count" id="remaining">0</span>
+            <span>章节</span>
+        </div>
+        <div class="summary-item">
+            <span>进度:</span>
+            <span class="count" id="progressPercent">0</span>
+            <span>%</span>
+        </div>
+        <div class="summary-item encouragement" id="encouragement">
+            加油，你可以的！
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <h3 class="sidebar-title">挑战进度</h3>
+        <ul class="tree" id="progressTree">
+            <!-- 树形结构将通过JavaScript动态生成 -->
+        </ul>
+    </div>
+
+    <div class="content" id="content">
+        <!-- 内容将通过JavaScript动态生成 -->
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
