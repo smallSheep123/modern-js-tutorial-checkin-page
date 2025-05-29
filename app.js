@@ -410,6 +410,7 @@ function renderProgressTree() {
         const groupLink = document.createElement('a');
         groupLink.href = `#group-${groupTitle.replace(/\s+/g, '-')}`;
         groupLink.textContent = groupTitle;
+        groupLink.className = 'group-link';
 
         const completedCount = chapters.filter(c => c.completed).length;
         const totalCount = chapters.length;
